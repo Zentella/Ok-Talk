@@ -1,8 +1,8 @@
 .sidebar {
-    border: 1px solid $platinum;
+    border: 2px solid $platinum;
 }
 .header {
-    border-bottom: 1px solid $platinum;
+    border-bottom: 2px solid $platinum;
 }
 .contact-menu__button {
     display: flex;
@@ -16,14 +16,15 @@
     border-top: 2px solid $platinum;
     padding: 1em;
 }
-.contact-menu_content {/*hojo guion bajo*/
+.contact-menu__content {
     h3 {
+        font-size: $medium;
         margin: 0;
-        padding-left: 1.2rem;/*o relativo*/
+        padding-left: 1.2rem;
     }
     p {
         margin: 0;
-        font-size: $small;
+        font-size: $medium;
         padding-left: 1.2rem;/*relativo 1rem=16px*/
     }
 }

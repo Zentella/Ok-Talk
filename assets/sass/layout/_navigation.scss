@@ -8,12 +8,12 @@
 }
 .user-info__summary {
     padding-left: .8em;
-    h2 {
+    h6 {
         margin: 0;
     }
     p {
         margin: 0;
-        font-size: $x-small;
+        font-size: $small;
         color: $gray;
     }
 }
@@ -40,11 +40,7 @@
     padding: 5px 0;
 }
 .navbar-light .navbar-toggler {
-    border-toggler {
-        border-color: transparent;
-            /*border: none;
-*/
-    }
+    border-color: transparent;
 }
 
 

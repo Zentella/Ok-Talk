@@ -1,6 +1,6 @@
 .button {
     padding: 1rem 4rem;
-    cursor: pointer;
+    cursor: pointer;    
     font-family: $roboto;
     font-size: $medium;
     font-weight: $bold;
@@ -8,6 +8,7 @@
 .button-primary {
     border: none;
     color: $white;
+    font-weight: $regular;
     background-color: $blue-bell;
 
     &:hover {
